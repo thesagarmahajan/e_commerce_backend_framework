@@ -1,0 +1,104 @@
+{
+    "categories":[
+        {
+            "category_title":"Pearl Jewellery",
+            "created_on":"<date>",
+            "created_by":"",
+            "category_thumbnail_image":""
+        }
+    ],
+    "products":[
+        {
+            "product_name":"",
+            "images":[],
+            "description":"",
+            "reseller_price":"",
+            "customer_price":"",
+            "purchase_cost":""
+        }
+    ],
+    "resellers":[
+        {
+            "full_name":"",
+            "email":"",
+            "phone":"",
+            "city":"",
+            "pin":"",
+            "address":"",
+            "new_login_session":{
+                "attempt_date_time":"",
+                "otp":""
+            }
+        }
+    ],
+    "users":[
+        {
+            "full_name":"",
+            "username":"",
+            "password":""
+        }
+    ],
+    "login_session_logs":[
+        {
+            "reseller_id":"",
+            "date_time":"",
+            "otp":""
+        }
+    ],
+    "orders":[
+        {
+            "details":[
+                {
+                    "pid":3,
+                    "qty":2,
+                    "total":600
+                },
+                {
+                    "pid":1,
+                    "qty":2,
+                    "total":300
+                }
+            ],
+            "final_total":900,
+            "grand_total":800
+        },
+        {
+            "details":[
+                {
+                    "pid":3,
+                    "qty":8,
+                    "total":2400
+                }
+            ],
+            "final_total":2400,
+            "grand_total":2400
+        }
+    ],
+    "customers":[
+        {
+            "full_name":"",
+            "email":"",
+            "phone":"",
+            "address":"",
+            "city":"",
+            "pin":""
+        }
+    ]
+}
+
+// shipment statuses
+    // order_confirmed
+    // preparing_to_ship
+    // shipped
+    // delivered
+//  Payment Statuses
+    // Payment_received: received   
+    // Payment_Pending: pending
+    // Payment_Failed: failed
+    // Payment Refunded: refunded
+//  Status Column
+    // Pending:P
+    // Active:A
+    // Deleted:D
+    // Cancelled:C
+    // Completed:E
